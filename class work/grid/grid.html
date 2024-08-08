@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<style>
+    *{
+        font-family: 'Roboto',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    }
+
+    header{
+        background-color: brown;
+        display: flex;
+        padding: auto;
+        height: 3rem;
+        
+    }
+    header .logo i{
+        height: 1rem;
+        width: 2rem;
+        color: white;
+        padding: 1rem  ;
+        margin-left: 2rem;
+        
+    }
+
+    header .head {
+        color: white;
+        padding: 0.5rem;
+        
+    }
+    .section1{
+       
+        margin-top: 20px ;
+        margin-bottom: 20px ;
+        margin-left: 160px ;
+        margin-right: 160px ;
+
+    }
+    .section1 .text{
+        
+        border-radius: 1.5rem;
+        padding: 1rem;
+        background-color: rgba(239, 226, 226);
+    }
+
+    .section1 .text h1{
+        color: blue;
+    }
+
+    .container{
+    width: 80vw;
+    margin: 20px auto; 
+    display: grid;
+    grid-auto-rows: 200px;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+}
+
+ .container div{
+    border-radius: 10px;
+    position: relative ;
+}
+
+
+ .container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 100ms;
+    
+}
+
+
+
+.container img:hover{
+    opacity: .5;
+    cursor: pointer;
+    filter: grayscale(80%);
+}
+    
+
+</style>
+<body>
+    <header >
+       
+
+        </video>
+        <div class="logo">
+            <i class="fa-solid fa-camera-retro"></i>
+        </div>
+        <div class="head">
+            <span><h1>Photography blogs</h1></span>
+        </div>
+    </header>
+
+    <div class="section1">
+        <div class="text">
+            <h1>Images</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, consequatur!</p>
+        </div>
+
+    </div>
+
+    <section class="section3">
+        <div class="container">
+            <div class="img1">
+                <img src="img1.jpeg" alt="">
+                <i class="fa-solid fa-camera"></i>
+            </div>
+
+            <div >
+                <img src="img2.avif" alt="">
+                <i class="fa-solid fa-camera"></i>
+            </div>
+
+            <div >
+                <img src="img3.jpeg" alt="">
+                <i class="fa-solid fa-camera"></i>
+            </div>
+
+            <div >
+                <img src="img4.avif" alt="">
+                <i class="fa-solid fa-camera"></i>
+            </div>
+
+            <div >
+                <img src="img5.avif" alt="">
+                <i class="fa-solid fa-camera"></i>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
