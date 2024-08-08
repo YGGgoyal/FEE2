@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+    
+    header{
+        background-color: black;
+        color: grey;
+    }
+    h2{
+        border: 10px violet;
+    }
+    p.per{
+        border: 2px  solid gray ;
+        border-width: 2px 600px;
+        
+        background: black;  
+        padding: 2px;
+        background-clip: content-box;
+        color: grey;
+    }
+
+    p.doc{
+        border: 2px solid gray; 
+        border-width: 2px 620px;
+        padding: 2px;
+        background: black;
+        color: gray;
+
+       
+    }
+    p.ski{
+        border: 2px solid gray; 
+        border-width: 2px 570px;
+        padding: 2px;
+        background: black;
+        color: gray;
+    }
+    p.app{
+        border: 2px solid gray; 
+        border-width: 2px 600px;
+        padding: 2px;
+        background: black;
+        color: gray;
+    }
+    form{
+        background-color: gray;
+    }
+
+</style>
+<body>
+    <form>
+        <center>
+        <h1>JOB APPLICATION</h1>
+        <hr><h2 ><p class="per">Personal Details</p></h2>
+        <input type="checkbox" id="g" name="g" value="g" checked>
+        <label for="g"> Personal Email</label>
+
+        <input type="text" id="g" name="g" value="" checked>
+        <label for="g"></label>
+        <br>
+        <br>
+        
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" value="">
+        <br>
+        <br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" value="">
+        <br>
+        <br>
+        <LABEL For="">Gender</LABEL>
+        <select name="" id="">
+            <option value=""></option>
+            <option value="MALE">MALE</option>
+            <option value="FEMALE">FEMALE</option>
+            <option value="TRANS">TRANS</option>
+            <option value="NOT DEFINED">NOT DEFINED</option>
+           </select>
+        <BR>
+        <BR>
+        <label for="ffname">Father's Name</label>
+        <input type="text" id="ffname" name="ffanme" value="">
+        <br>
+        <br>
+        <label for="add">Address</label>
+       <textarea placeholder="enter ur address" rows="5" cols="20"></textarea>
+        <br>
+        <br>
+        <label for="mno">Mobile No</label>
+        <input type="number" id="mno" name="mno" value="" placeholder="(+91)" >
+       <!---->
+        <h2 ><p class="ski">Skills You Accquire</p></h2>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" id="1" name="1" value="">
+        <label for="1">HTML</label>
+
+        <input type="checkbox" id="2" name="2" value="">
+        <label for="2">PYTHON</label>
+
+        <input type="checkbox" id="3" name="3" value="">
+        <label for="3">JAVA</label>
+
+        <input type="checkbox" id="4" name="4" value="">
+        <label for="4">IDL</label>
+         <BR>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+        <input type="checkbox" id="5" name="5" value="">
+        <label for="5">PHP</label>
+
+        <input type="checkbox" id="6" name="6" value="">
+        <label for="6">RUBY</label>
+
+        <input type="checkbox" id="7" name="7" value="">
+        <label for="7">SQL</label>
+
+        <input type="checkbox" id="8" name="8" value="">
+        <label for="8">SQUIRREL</label>
+         <BR>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+        <input type="checkbox" id="9" name="9" value="">
+        <label for="9">PERL</label>
+
+        <input type="checkbox" id="10" name="10" value="">
+        <label for="10">RUST</label>
+
+        <input type="checkbox" id="11" name="11" value="">
+        <label for="11">MOTO</label>
+
+        <input type="checkbox" id="12" name="12" value="">
+        <label for="12">PASCAL</label>
+       <!---->
+        <h2 ><p class="app">Applying For</p></h2>
+
+        <LABEL FOR="AP">Department</LABEL><BR>
+        
+        <select name="" id="">
+            <option value=""></option>
+            <option value="CO">CORE</option>
+            <option value="MAN">MANAGEMENT</option>
+            <option value="AST">TECH</option>
+            <option value="I">NON TECH</option>
+           </select>
+        <BR>
+            <br>
+        <label for="">Position Applying For</label> <BR>
+        <select name="" id="">
+            <option value="none"></option>
+            <option value="hr">HR</option>
+            <option value="MANA">MANAGER</option>
+            <option value="ASTH">ASSISTANT HEAD</option>
+            <option value="I">CODER EMPLOYEE</option>
+           </select>   
+        <!---->
+           <h2 ><p class="doc">Documents</p></h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <label for="">Uplaod Your Certificates:</label>
+           <input type="file" id="" name="" value="" >
+           <br>
+           <br>
+            <hr>
+           <button type="submit">Submit</button>
+        </center>
+    </form>
+</body>
+</html>
